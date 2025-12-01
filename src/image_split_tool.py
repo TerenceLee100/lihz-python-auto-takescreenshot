@@ -38,8 +38,8 @@ def split_image_left_right(image_path, output_dir):
 
 if __name__ == "__main__":
     # 示例用法
-    input_dir = "ebook_screenshots"
-    output_dir = "ebook_screenshots_cut"
+    input_dir = "七年级语文上_cut"
+    output_dir = "七年级语文上_cut_cut"
 
     # 如果输出目录不存在则创建
     if not os.path.exists(output_dir):

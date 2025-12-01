@@ -6,5 +6,5 @@
 
 ## 安装依赖
 ```bash
-pip install --upgrade pillow pyautogui pyscreeze
+pip install --upgrade pillow pyautogui pyscreeze keyboard
 ```
