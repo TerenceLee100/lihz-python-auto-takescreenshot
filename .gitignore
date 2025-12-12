@@ -1,3 +1,5 @@
 .DS_Store
 *.png
 __pycache__/
+out/
+*.xlsx
