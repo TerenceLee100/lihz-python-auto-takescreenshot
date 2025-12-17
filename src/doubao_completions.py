@@ -8,7 +8,7 @@ from pydantic import BaseModel  # 用于定义响应解析模型
 # 初始化方舟SDK客户端
 client = Ark(
     # 从环境变量获取方舟API Key（需提前设置环境变量）
-    api_key='',
+    api_key=os.getenv('ARK_API_KEY'),
 )
 
 # 定义最终响应模型（包含分步过程和最终答案）
