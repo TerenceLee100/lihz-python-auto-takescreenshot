@@ -72,8 +72,8 @@ def main(max_click_count=1000,sub_dir="ebook_screenshots"):
 
 if __name__ == "__main__":
     # CLICK_X, CLICK_Y = get_mouse_position()
-    sub_dir = "七年级物理上"
-    main(max_click_count=2,sub_dir=sub_dir)
+    sub_dir = "九年级全一册"
+    main(max_click_count=110,sub_dir=sub_dir)
     input_dir = f"{sub_dir}"
     output_dir = f"{sub_dir}_cut"
 
